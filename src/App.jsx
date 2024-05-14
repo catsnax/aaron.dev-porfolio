@@ -99,7 +99,7 @@ function App() {
               <h1 className = "text-white font-rubik text-4xl"> Aaron Justin Macias </h1>
               <h3 className = "text-gray-400 font-thin text-md">A fullstack web developer based in Davao City, Philippines. I'm currently taking my Bachelor of Science in Computer Science in Ateneo de Davao University. </h3>
               <div className = "flex gap-4 mt-2 mb-2 "> <a target="_blank" href = "https://github.com/catsnax"> <img className = "w-9"src = {githubWhite} ></img> </a> <a target="_blank" href = "https://www.linkedin.com/in/aaron-justin-macias-723454213/"><img className = "w-9"src = {linkedin}></img></a></div>
-              <a className = "bg-white rounded-md w-5/12 text-sm p-2 " href = {resume} download> Download Resume</a>
+              <a className = "bg-[#102240] font-rubik text-white rounded-md w-4/12 text-sm p-3 transition-colors duration-300 ease-in-out hover:bg-white hover:text-black " href = {resume} download> Download Resume</a>
             </div>
             <img src = {logo} className = "w-2/12 mb-16"></img>
           </div>
