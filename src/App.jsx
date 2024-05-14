@@ -77,7 +77,7 @@ function App() {
 
   return (
    
-      <html className = "bg-[#08192E]">
+      <div className = "bg-[#08192E] min-h-screen bg-cover">
         <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
        <Helmet>
@@ -92,8 +92,8 @@ function App() {
         </nav>
 
 
-        <div ref = {homeRef}className = "flex-col flex items-center w-fit ">
-          <div className = "flex mt-12 justify-center">
+        <div ref = {homeRef}className = "flex-col flex items-center w-full ">
+          <div className = "flex mt-12 justify-center w-full">
             <div className = "mt-12 w-4/12 flex-col flex gap-2">
               <h3 className = "text-base font-inter font-rubik text-[#3b8093] stroke-white"> Hi! My name is </h3>
               <h1 className = "text-white font-rubik text-4xl"> Aaron Justin Macias </h1>
@@ -163,7 +163,7 @@ function App() {
 
         </div>
        
-      </html>
+      </div>
     
   )
 }
