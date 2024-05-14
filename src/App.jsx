@@ -21,6 +21,7 @@ import cataloguePic from './assets/projects/catalogue.png'
 import shegels from './assets/projects/shegels.png'
 import discordbot from './assets/projects/discordbot.png'
 import financepic from './assets/projects/finance.png'
+import { Helmet } from 'react-helmet';
 
 
 
@@ -76,7 +77,10 @@ function App() {
 
   return (
    
-      <div className = "bg-[#08192E]">
+      <html className = "bg-[#08192E]">
+       <Helmet>
+        <title>aaron.dev</title>
+      </Helmet>
         <nav className = "flex font-rubik text-lg text-white sticky">
           <h2 className = "m-4 ml-4 font-semibold w-10/12"> aaron.dev</h2>
           <h2 className = "m-4" onClick = {scrollToHomeSection}>home</h2>
@@ -156,7 +160,7 @@ function App() {
 
         </div>
        
-      </div>
+      </html>
     
   )
 }
